@@ -1,7 +1,6 @@
 import "./App.css";
 import Welcome from "./Welcome";
 import Login from "./Login";
-import SignUp from "./SignUp";
 import Otp from "./Otp";
 import { Routes, Route } from "react-router-dom";
 

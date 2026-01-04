@@ -1,0 +1,25 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd front && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Motty220/dojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Motty220/dojo/issues"
+  },
+  "homepage": "https://github.com/Motty220/dojo#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
